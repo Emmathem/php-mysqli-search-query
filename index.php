@@ -1,7 +1,8 @@
 <? include __DIR__ .'/view/views-stubs/header.php' ?>
         <section class="welcome-page">
             <div class="a-c"></div>
-            <div class="col-md-8">
+
+            <div class="col-md-offest-3 col-md-8">
                 <div class="wow fadeInDown" data-wow-duration=".9s" data-wow-delay=".4s">
                     <h3 class="wow animated fadeInRight" data-wow-delay=".6s" data-wow-duration="1.3s">What Are You Looking For?</h3>
                 </div>

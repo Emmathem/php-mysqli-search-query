@@ -17,7 +17,7 @@ require_once __DIR__ . '/title.inc.php';
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400|Open+Sans:100,300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
-      <? require_once __DIR__ .'/../lib/Helpers/db_transact.php';?>
+      <? require_once __DIR__ .'/../../lib/Helpers/db_transact.php';?>
     <? require_once __DIR__ . '/favicons.php'?>
 </head>
 
