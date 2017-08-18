@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+
+RewriteRule ^login/?$ view/login.php [NC,L,QSA]
+
+RewriteRule ^search/?$ view/search.php [NC,L,QSA]
+RewriteRule ^library/?$ view/library.php [NC,L,QSA]
+RewriteRule ^logout/?$ view/logout.php [NC,L,QSA]
+RewriteRule ^download/?$ download.php [NC,L,QSA]
+RewriteRule ^dashboard/?$ view/dashboard.php [NC,L,QSA]
+
+#RewriteRule ^pagenotfound/?$ view/error/pagenotfound.php [NC,L,QSA]
+#errorDocument 404 http://localhost/e-library/pagenotfound
+
+
+</IfModule>
